@@ -23,7 +23,6 @@ class HtmlMinifyServiceProvider extends PackageServiceProvider
                 $command
                     ->publishConfigFile()
                     ->copyAndRegisterServiceProviderInApp()
-                    ->askToStarRepoOnGitHub();
             });
     }
 }
