@@ -18,7 +18,6 @@ class HtmlMinifyServiceProvider extends PackageServiceProvider
         $package
             ->name('html-minify')
             ->hasConfigFile()
-            ->publishesServiceProvider('HtmlMinifyServiceProvider')
             ->hasInstallCommand(function(InstallCommand $command) {
                 $command
                     ->publishConfigFile()
