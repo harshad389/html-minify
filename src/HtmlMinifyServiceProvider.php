@@ -4,6 +4,7 @@ namespace minimo\HtmlMinify;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
+use Spatie\LaravelPackageTools\Commands\InstallCommand;
 
 class HtmlMinifyServiceProvider extends PackageServiceProvider
 {
