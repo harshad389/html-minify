@@ -22,7 +22,7 @@ class HtmlMinifyServiceProvider extends PackageServiceProvider
             ->hasInstallCommand(function(InstallCommand $command) {
                 $command
                     ->publishConfigFile()
-                    ->copyAndRegisterServiceProviderInApp()
+                    ->copyAndRegisterServiceProviderInApp();
             });
     }
 }
